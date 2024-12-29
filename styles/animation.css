@@ -1,0 +1,156 @@
+.Animation.LeftDisappear {
+    animation-name: LeftFade;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.Animation.RightDisappear {
+    animation-name: RightFade;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.Animation.LeftAppear {
+    animation-name: LeftIn;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.Animation.RightAppear {
+    animation-name: RightIn;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.Animation.Darken {
+    animation-name: Darken;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.Lighten {
+    animation-name: Lighten;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.Throw {
+    animation-name: Throw;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.Retrieve {
+    animation-name: Retrieve;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.Generate {
+    animation-name: Generate;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.NotGenerate {
+    animation-name: NotGenerate;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.ProjectOpen {
+    animation-name: ProjectOpen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.Animation.ProjectClose {
+    animation-name: ProjectClose;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes LeftFade {
+    100% {
+        opacity: 0%;
+        left: -50px;
+    }
+}
+
+@keyframes RightFade {
+    100% {
+        opacity: 0%;
+        left: 50px;
+    }
+}
+
+@keyframes LeftIn {
+    100% {
+        opacity: 100%;
+        left: 0px;
+    }
+}
+
+@keyframes RightIn {
+    100% {
+        opacity: 100%;
+        left: 0px;
+    }
+}
+
+@keyframes Darken {
+    100% {
+        background-color: #4f4a50;
+    }
+}
+
+@keyframes Lighten {
+    100% {
+        background-color: #9A9A9A;
+    }
+}
+
+@keyframes Throw {
+    100% {
+        left: 500px;        
+    }
+}
+
+@keyframes Retrieve {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes Generate {
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes NotGenerate {
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes ProjectOpen {
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes ProjectClose {
+    100% {
+        height: 0%;
+    }
+}

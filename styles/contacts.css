@@ -1,0 +1,45 @@
+#Contacts {
+    display: none;
+}
+
+#Contacts #Image div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+}
+
+#Contacts #Image div div{
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    background-color: #4f4a50;
+}
+
+#Contacts #Image div div div{
+    position: absolute;
+    text-align: center;
+    opacity: 0%;
+}
+
+#Contacts #Message div #ContactList{
+    display: flex;
+    top: -10px;
+    height: 40px;
+    float: left;
+}
+
+#Contacts #Message div #ContactList button, #Contacts #Image div a button {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    cursor: pointer;
+    left: 0;
+}
+
+#Contacts #Image div a button {
+    display: none;
+}
+
+#Contacts #Message div #ContactList button .ContactImage {
+    width: 30px;
+}

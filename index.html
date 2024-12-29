@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/frontheader.css">
+        <link rel="stylesheet" href="styles/education.css">
+        <link rel="stylesheet" href="styles/skills.css">
+        <link rel="stylesheet" href="styles/contacts.css">
+        <link rel="stylesheet" href="styles/animation.css">
+        <link rel="stylesheet" href="styles/mediaQuery.css">
+        <title>
+            Isaac Fajardo
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+        <div id="FrontHeader">
+            <h3 id="Name">
+                Isaac Fajardo
+            </h3>
+            <div>
+                <button onclick="OpenProjects();">
+                    <h3>
+                        Projects
+                    </h3>
+                </button>
+                <button onclick="next('Contacts');">
+                    <h3>
+                        Contacts
+                    </h3>
+                </button>
+                <button onclick="next('Skills');">
+                    <h3>
+                        Skills
+                    </h3>
+                </button>
+                <button onclick="next('Education');">
+                    <h3>
+                        Education
+                    </h3>
+                </button>
+                <button onclick="next('Intro');">
+                    <h3>
+                        Introduction
+                    </h3>
+                </button>
+            </div>
+        </div>
+        <div id="ViewPort" class="Animation Lighten">
+            <div id="Intro" class="Page">
+                <div id="Message">
+                    <div class="Animation LeftAppear">
+                        <b>Hi, I'm Isaac.</b>   
+                        <p id="Greet">
+                            I'm a Programmer who develops apps, games and websites such as this one.
+                        </p>
+                    </div>
+                </div>
+                <div id="Image">
+                    <div class="Animation RightAppear">
+                        <img src="images/Isaac.png", class="FrontImage">
+                    </div>
+                </div>
+            </div>
+            <div id="Education" class="Page">
+                <div id="Message">
+                    <div class="Animation LeftDisappear">
+                        <b>Education</b>   
+                        <p id="Greet">
+                            I studied at Philippine Pasay Chung Hua Academy. From 2012 to 2024.
+                        </p>
+                    </div>
+                </div>
+                <div id="Image">
+                    <div class="Animation RightDisappear">
+                        <img src="images/PPCHA.png", class="FrontImage">
+                    </div>
+                </div>
+            </div>
+            <div id="Skills" class="Page">
+                <div id="Message">
+                    <div class="Animation LeftDisappear">
+                        <b>Skills</b>   
+                        <p id="Greet">
+                            I mainly do game development and mobile development. 
+                        </p>
+                    </div>
+                </div>
+                <div id="Image">
+                    <div class="Animation RightDisappear List">
+                        <div>
+                            <img src="images/Python.png", class="FrontImage" id="Python">
+                            <div>
+
+                            </div>
+                            <p>
+                                Excellent
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/Csharp.png", class="FrontImage" id="CSharp">                        
+                            <div>
+                            </div>
+                            <p>
+                                Average
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/JavaScript-logo.png", class="FrontImage" id="Javascript">
+                            <div>
+                            </div>
+                            <p>
+                                Basic
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Contacts" class="Page">
+                <div id="Message">
+                    <div class="Animation LeftDisappear">
+                        <b>Contacts</b>   
+                        <p id="Greet">
+                            Email: isaacarnelfajardo@gmail.com
+                        </p>
+                        <div id="ContactList">
+                            <button onclick="Throw('Github');" class="Animation Retrieve">
+                                <img src="images/Github.png", class="ContactImage">
+                            </button>
+                            <button onclick="Throw('Fiverr');" class="Animation Retrieve">
+                                <img src="images/Fiverr.png" class="ContactImage">
+                            </button>
+                            <button onclick="Throw('Facebook');" class="Animation Retrieve">
+                                <img src="images/Facebook.png" class="ContactImage">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="Image">
+                    <div id="Images" class="Animation RightDisappear">
+                        <div class="Animation Generate">
+                            <div class="Animation NotGenerate">
+                                Generating...
+                            </div>
+                        </div>
+                        <a href="https://github.com/IsaacFajardo101">
+                            <button>
+                                <img src="images/GithubQr.png", class="FrontImage">
+                            </button>
+                        </a>
+                        <a href="https://www.fiverr.com/thunderbot99">
+                            <button>
+                                <img src="images/FiverrQr.png", class="FrontImage">
+                            </button>
+                        </a>
+                        <a href="https://www.facebook.com/isaacarnel.fajardo/">
+                            <button>
+                                <img src="images/FacebookQr.png", class="FrontImage">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="ProjectsHeader" class="Animation ProjectClose">
+                <div id="ProjectsElem" class="Animation NotGenerate">
+                    <button>
+                        Chess
+                        <img src="images/Chess.png">
+                        <p>
+                            A chess game I made using Python and the Pygame library.
+                        </p>
+                    </button>
+                    <button>
+                        Tetris
+                        <img src="images/Tetris.png">
+                        <p>
+                            A tetris game I made using Python and the Pygame library.
+                        </p>
+                    </button>
+                    <button>
+                        Math Training App
+                        <img src="images/Math.png">
+                        <p>
+                            A simple math problem game made in the godot game engine.
+                        </p>
+                    </button>
+                    <button>
+                        Kids App
+                        <img src="images/Kids.png">
+                        <p>
+                            An app containing 5 educational minigames made in unity game engine.
+                        </p>
+                    </button>
+                    <button>
+                        Pong
+                        <img src="images/Pong.png">
+                        <p>
+                            A simple pong game made in the godot game engine.
+                        </p>
+                    </button>
+                </div>
+                <div>
+                    <input type="text", id="SearchEngine">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="code.js"></script>
+</html>

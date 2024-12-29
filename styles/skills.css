@@ -1,0 +1,64 @@
+#Skills {
+    display: none;
+}
+
+#Skills #Image div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Skills #Image div div {
+    width: 100px;
+    height: 27vh;
+}
+
+#Skills #Image div div img {
+    width: 100px;
+    margin: 25px;
+    transition: 0.5s;
+}
+
+#Skills #Image div div img:hover {
+    width: 120px;
+    transition: 0.5s;
+}
+
+#Skills #Image div div #Python:hover ~ div {
+    width: 38vw;
+    transition: 1s;
+}
+
+#Skills #Image div div #CSharp:hover ~ div {
+    width: 25vw;
+    transition: 1s;
+}
+
+#Skills #Image div div #Javascript:hover ~ div {
+    width: 13vw;
+    transition: 1s;
+}
+
+#Skills #Image div div div{
+    width: 0px;
+    position: absolute;
+    background-color: #1A1619;
+    height: 3vh;
+    top: 12vh;
+    left: 9vw;
+    z-index: -1;
+    transition: 1s;
+}
+
+#Skills #Image div div p{
+    position: absolute;
+    left: 12vw;
+    bottom: 13vh;
+    opacity: 0%;
+    transition: 1s;
+}
+
+#Skills #Image div div img:hover ~ p{
+    opacity: 100%;
+    transition: 1s;
+}

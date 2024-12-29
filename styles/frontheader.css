@@ -1,0 +1,44 @@
+#FrontHeader, #ProjectsHeader {
+    position: fixed ;
+    background-color: #1A1619;
+    height: 10vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    top: 0px;
+    z-index: 100;
+    vertical-align: top;
+}
+
+#ProjectsHeader {
+    position: relative;
+    top: 10vh;
+    display: none;
+}
+
+#FrontHeader h3 {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 10vh;
+    padding-left: 15px;
+    width: 80%;
+    float: left;
+}
+
+#FrontHeader #Name {
+    width: 20%;
+}
+
+#FrontHeader button{
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    cursor: pointer;
+}
+
+#FrontHeader button h3{
+    color: #6A5C69;
+}

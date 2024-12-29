@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1030px) {
+    #BottomHeader div button {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    #BottomHeader div button {
+        width: 125px;
+        height: 35%;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    #BottomHeader div button {
+        width: 100px;
+        height: 35%;
+    }
+}

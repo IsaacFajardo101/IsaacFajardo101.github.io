@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9A9A9A;
+    color: #6A5C69;
+    font-family: Roboto;
+    overflow: hidden;
+    margin: 0;
+}
+
+#ProjectsElem {
+    display: none;
+    height: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 100px;
+}
+
+#ProjectsElem button {
+    width: 150px;
+    height: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-size-adjust: none;
+    background-color: #6A5C69;
+    position: relative;
+    margin: 5px;
+    margin-left: 0px;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+
+#ProjectsElem button img {
+    width: 150px;
+    bottom: 100px
+}
+
+#ViewPort div input {
+    height: 5%;
+}
+
+#ViewPort {
+    background-color: #9A9A9A;
+}
+
+#ViewPort ,#ViewPort div {
+    position: fixed;
+    vertical-align: top;
+    height: 80vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    top: 10vh;
+}
+
+#Intro div, #Education div, #Skills div, #Experience div, #Contacts div {
+    position: relative;
+    color: black;
+    font-size: xx-large;
+}
+
+.Page #Message div {
+    float: right;
+    top: 40%;
+}
+
+.Page #Message div #Greet {
+    font-size: large;
+    line-height: 90%;
+    margin-top: 9px;
+    top: 0;
+    left: 0;
+}
+
+#Intro div, #Education div, #Skills div, #Experience div, #Contacts div{
+    top: 0;
+    width: 50%;
+    float: left;
+}
+
+#Intro #Image div {
+    top: 23%;
+}
+
